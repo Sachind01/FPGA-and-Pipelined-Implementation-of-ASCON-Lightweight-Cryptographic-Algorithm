@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul  9 21:43:18 2024
+# Process ID: 20136
+# Current directory: E:/ascon_debugger/project_5/project_5.runs/impl_1
+# Command line: vivado.exe -log Ascon_Top_tb.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Ascon_Top_tb.tcl -notrace
+# Log file: E:/ascon_debugger/project_5/project_5.runs/impl_1/Ascon_Top_tb.vdi
+# Journal file: E:/ascon_debugger/project_5/project_5.runs/impl_1\vivado.jou
+# Running On: SachinsLatitude, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 16981 MB
+#-----------------------------------------------------------
+source Ascon_Top_tb.tcl -notrace

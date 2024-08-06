@@ -1,0 +1,34 @@
+//ASCON
+
+//Encryption FSM
+
+
+IDLE → INITIALIZE: When encryption_start is high.
+INITIALIZE → ASSOCIATED_DATA: If l (length of associated data) is not zero and permutation_ready is high.
+INITIALIZE → PTCT: If l is zero and y (length of plain text) is not zero and permutation_ready is high.
+INITIALIZE → FINALIZE: If l and y are zero and permutation_ready is high.
+ASSOCIATED_DATA → PTCT: If block_ctr equals s-1 and permutation_ready is high and y is not zero.
+ASSOCIATED_DATA → FINALIZE: If block_ctr equals s-1 and permutation_ready is high and y is zero.
+ASSOCIATED_DATA: Stay in the same state if block_ctr is not equal to s-1 and permutation_ready is high.
+PTCT → FINALIZE: If block_ctr equals t-1.
+PTCT: Stay in the same state if block_ctr is not equal to t-1 and permutation_ready is high.
+FINALIZE → DONE: When permutation_ready is high.
+DONE → IDLE: When encryption_start is high.
+default → IDLE: On any undefined state.
+
+
+//Decryption FSM
+
+IDLE → INITIALIZE: When decryption_start is high.
+INITIALIZE → ASSOCIATED_DATA: If l (length of associated data) is not zero and permutation_ready is high.
+INITIALIZE → CTPT: If l is zero and y (length of plain text) is not zero and permutation_ready is high.
+INITIALIZE → FINALIZE: If l and y are zero and permutation_ready is high.
+ASSOCIATED_DATA → CTPT: If block_ctr equals s-1 and permutation_ready is high and y is not zero.
+ASSOCIATED_DATA → FINALIZE: If block_ctr equals s-1 and permutation_ready is high and y is zero.
+ASSOCIATED_DATA: Stay in the same state if block_ctr is not equal to s-1 and permutation_ready is high.
+CTPT → FINALIZE: If block_ctr equals t-1.
+CTPT: Stay in the same state if block_ctr is not equal to t-1 and permutation_ready is high.
+FINALIZE → DONE: When permutation_ready is high.
+DONE → IDLE: When decryption_start is high.
+default → IDLE: On any undefined state.
+

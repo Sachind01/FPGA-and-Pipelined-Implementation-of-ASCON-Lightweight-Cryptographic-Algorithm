@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Ascon_tb_func_synth.v" \
+"../../../../../fc2.srcs/sim_1/new/Ascon_tb.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jul 12 09:16:17 2024
+# Process ID: 15780
+# Current directory: E:/ascon_debugger/project_5/project_5.runs/impl_2
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: E:/ascon_debugger/project_5/project_5.runs/impl_2/design_1_wrapper.vdi
+# Journal file: E:/ascon_debugger/project_5/project_5.runs/impl_2\vivado.jou
+# Running On: SachinsLatitude, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 16981 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

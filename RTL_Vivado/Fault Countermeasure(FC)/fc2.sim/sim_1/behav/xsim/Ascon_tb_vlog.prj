@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../fc2.srcs/sources_1/new/Ascon.v" \
+"../../../../../Decryption/Decryption.srcs/sources_1/new/Decryption.v" \
+"../../../../../encryption/encryption.srcs/sources_1/new/Encryption.v" \
+"../../../../../ascon/ascon.srcs/sources_1/new/FC.v" \
+"../../../../../linear_layer/linear_layer.srcs/sources_1/new/linear_layer.v" \
+"../../../../../permutation/permutation.srcs/sources_1/new/permutation.v" \
+"../../../../../roundconstant.v" \
+"../../../../../encryption/encryption.srcs/sources_1/new/roundcounter.v" \
+"../../../../../sub_layer.v" \
+"../../../../fc2.srcs/sim_1/new/Ascon_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

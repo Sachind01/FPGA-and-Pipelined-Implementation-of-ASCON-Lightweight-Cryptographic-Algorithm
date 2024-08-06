@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/ascon_debugger/Decryption/Decryption.srcs/sources_1/new/Decryption.v,1719896499,verilog,,E:/ascon_debugger/encryption/encryption.srcs/sources_1/new/Encryption.v,,Decryption,,,,,,,,
+E:/ascon_debugger/FC_tb.v,1720435746,verilog,,,,FC_tb,,,,,,,,
+E:/ascon_debugger/ascon/ascon.srcs/sources_1/new/FC.v,1720757931,verilog,,E:/ascon_debugger/linear_layer/linear_layer.srcs/sources_1/new/linear_layer.v,,FC,,,,,,,,
+E:/ascon_debugger/encryption/encryption.srcs/sources_1/new/Encryption.v,1720443347,verilog,,E:/ascon_debugger/ascon/ascon.srcs/sources_1/new/FC.v,,Encryption,,,,,,,,
+E:/ascon_debugger/encryption/encryption.srcs/sources_1/new/roundcounter.v,1720443347,verilog,,E:/ascon_debugger/sub_layer.v,,RoundCounter,,,,,,,,
+E:/ascon_debugger/fc2/fc2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+,,,,,,Ascon_tb,,,,,,,,
+E:/ascon_debugger/fc2/fc2.srcs/sources_1/new/Ascon.v,1720757924,verilog,,E:/ascon_debugger/Decryption/Decryption.srcs/sources_1/new/Decryption.v,,Ascon,,,,,,,,
+E:/ascon_debugger/fc2/fc2.srcs/sources_1/new/Ascon_Top.v,1720500457,verilog,,E:/ascon_debugger/Decryption/Decryption.srcs/sources_1/new/Decryption.v,,Ascon_Top,,,,,,,,
+E:/ascon_debugger/linear_layer/linear_layer.srcs/sources_1/new/linear_layer.v,1719818740,verilog,,E:/ascon_debugger/permutation/permutation.srcs/sources_1/new/permutation.v,,linear_layer,,,,,,,,
+E:/ascon_debugger/permutation/permutation.srcs/sources_1/new/permutation.v,1720443347,verilog,,E:/ascon_debugger/roundconstant.v,,Permutation,,,,,,,,
+E:/ascon_debugger/roundconstant.v,1720757975,verilog,,E:/ascon_debugger/encryption/encryption.srcs/sources_1/new/roundcounter.v,,roundconstant,,,,,,,,
+E:/ascon_debugger/sub_layer.v,1719893890,verilog,,E:/ascon_debugger/fc2/fc2.srcs/sim_1/new/Ascon_tb.v,,sub_layer,,,,,,,,

@@ -1,0 +1,74 @@
+Time resolution is 1 ps
+Reset at                    0
+Reset at                 5000
+Reset at                15000
+Reset at                25000
+Reset at                35000
+Reset at                45000
+Reset at                55000
+Reset at                65000
+Reset at                75000
+Reset at                85000
+Reset at                95000
+Starting encryption at               205000
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption started with plain_text=zzabcdef01
+Encryption ready at               385000
+FC: Encryption started with plain_text=zzabcdef01
+FC: Encryption results: c1=xxxxxxxxxx, c2=xxxxxxxxxx, c3=xxxxxxxxxx
+FC: Encryption tags: tag1=87f3a0335804efdb6207bf981406d2a0, tag2=87f3a0335804efdb6207bf981406d2a0, tag3=87f3a0335804efdb6207bf981406d2a0
+FC: Final cipher_text=xxxxxxxxxx, tag=87f3a0335804efdb6207bf981406d2a0
+Encryption completed, starting decryption at               385000
+Cipher text: xxxxxxxx
+Tag: 87f3a0335804efdb6207bf981406d2a0
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption started with cipher_text=0000000000
+Decryption ready at               565000
+FC: Decryption started with cipher_text=0000000000
+FC: Decryption results: p1=098a2ccf3f, p2=098a2ccf3f, p3=098a2ccf3f
+FC: Decryption tags: tag4=87f3a0335804efdb6207bf981406d2a0, tag5=87f3a0335804efdb6207bf981406d2a0, tag6=87f3a0335804efdb6207bf981406d2a0
+FC: Final dec_plain_text=098a2ccf3f, dec_tag=87f3a0335804efdb6207bf981406d2a0
+Decryption completed at               565000
+Decrypted plain text: 8a2ccf3f
+Decrypted tag: 87f3a0335804efdb6207bf981406d2a0
+Returning to IDLE state at               575000
+Message authentication: 0
+Encryption/Decryption completed
+Plain Text:    abcdef01
+Cipher Text:   00000000
+Decrypted Text:00000000
+Tag:           00000000000000000000000000000000
+Decrypted Tag: 00000000000000000000000000000000
+Message Authentication: 0
+FAILURE: Decryption failed - Original and decrypted plaintext do not match
+FAILURE: Message authentication failed

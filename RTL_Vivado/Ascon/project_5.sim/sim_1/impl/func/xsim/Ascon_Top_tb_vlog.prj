@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../project_5.gen/sources_1/bd/design_1/ipshared/c2c6" \
+"Ascon_Top_tb_func_impl.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/Ascon.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/Ascon_Top.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/Decryption.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/Encyption.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/FC.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/linear_layer.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/permutation.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/roundconstant.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/roundcounter.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sources_1/new/sub_layer.v" \
+"../../../../../../project_3_encryption/project_3_encryption.srcs/sim_1/new/Ascon_Top_tb.v" \
+
+# Do not sort compile order
+nosort
